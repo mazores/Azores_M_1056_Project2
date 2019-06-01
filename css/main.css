@@ -1,0 +1,307 @@
+.hidden {
+	display: none;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 72px;
+	font-weight: 700i;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 48px;
+	font-weight: 700i;
+	text-align: left;
+}
+
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 20.87px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	line-height: 39px;
+	color: #000000;
+	margin-top: 20px;
+}
+
+/*NAVIGATION BAR*/
+nav {
+	width: 100%;
+	background-color: transparent;
+	z-index: 20;
+	position: absolute;
+}
+
+.navCont {
+	width: 1177px;
+	margin: 0 auto;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.header {
+	width: 100%;
+	height: 807px;
+	top: 0;
+	background: url('../images/landscape-panorama.jpg');
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: -1;
+}
+
+/*LOGO*/
+.logo h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700i;
+	font-size: 126px;
+	color: #ffffff;
+}
+
+.logo h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	color: #ffffff;
+}
+
+/*NAVIGATION MENU*/
+.navmenu {
+	height: 40px;
+	bottom: 0;
+}
+
+.navmenu ul {
+ 	list-style-type: none;
+ 	padding: 0;
+}
+
+.navmenu ul li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.navmenu ul li a {
+	color: #ffffff;
+	padding: 5px;
+	text-decoration: none;
+}
+
+/*WELCOME TEXT*/
+.headerHero {
+	width: 650px;
+	height: 240px;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerHero h6 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headerHero h2 {
+	color: #ffffff;
+}
+
+/*ABOUT SECTION*/
+.about {
+	width: 100%;
+	height: 953px;
+}
+
+.aboutContainer {
+	width: 730px;
+	height: 953px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.aboutContainer h2 {
+	color: #4d860f;
+}
+
+/*PROJECT INVOLVEMENT*/
+.aboutInvolvement {
+	width: 100%;
+	height: 953px;	
+	background: url('../images/orange-fish.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.projInvolveContainer {
+	width: 730px;
+	height: 628px;
+	margin: 0 auto;
+	background-color: #f26522;
+	padding: 80px 70px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.projInvolveContainer h2 {
+	color: #ffffff;
+}
+
+.projInvolveContainer p {
+	color: #ffffff;
+}
+
+/*OBJECTIVES*/
+.galleryContainer {
+	width: 100%;
+	height: 315px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 90px;
+}
+
+/*.gallery {
+	margin: 20px;
+}*/
+
+.objectives {
+	width: 100%;
+	height: 1400px;
+}
+
+/*OBJ - SECTION TITLE*/
+.objContainer {
+	width: 730px;
+	height: 1019px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.objContainer h3 {
+	color: #4d860f;
+	margin-bottom: 90px;
+}
+
+/*OBJ - BODY*/
+.bodyCont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.columnOne, .columnTwo {
+	width: 429px;
+	height: 556px;
+	margin: 0 20px;
+}
+
+.columnOne ul, .columnTwo ul {
+	list-style-type: circle;
+}
+
+.columnOne li, .columnTwo li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	line-height: 39px;
+	margin-bottom: 20px;
+}
+
+
+/*NEWS*/
+.news {
+	width: 100%;
+	height: 2114px;
+	background-color: #eaf3e7;
+}
+
+.newsContainer {
+	width: 945px;
+	height: 2114px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+.newsContainer h2 {
+	color: #4d860f;
+	margin-bottom: 60px;
+}
+
+.newsBodyContainer {
+	width: 730px;
+	height: 1150px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 40px;
+	border: 20px solid #eaf3e7;
+	position: relative;
+    margin-top: -100px;
+}
+
+.newsBodyContainer h3 {
+	color: #4d860f;
+}
+
+/*FOOTER*/
+footer {
+	width: 100%
+	height: 327px;
+	background-color: #f26522;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700i;
+	font-size: 126px;
+	color: #ffffff;
+	text-align: center;
+}
+
+footer h6 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.footerlogo {
+	margin-bottom: 30px;
+}
+
+.navmenu {
+	text-align: center;
+}
+
+.copyright {
+	margin-top: 20px;
+}
+.copyright h6 {
+	font-weight: 400;
+	font-size: 18px;
+}
